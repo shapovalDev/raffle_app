@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    .test {
+        @apply text-3xl font-bold underline;
+    }
+
+    .test1{
+        @apply bg-red-500
+    }
+}
